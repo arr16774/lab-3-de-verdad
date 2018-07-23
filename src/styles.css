@@ -8,7 +8,7 @@ body {
 .filtro-caja{
     display: flex;
     flex-direction: row;
-    height: 25rem;
+    height: 5rem;
     width: 100%;
 }
 .boton{
@@ -27,4 +27,35 @@ body {
 .boton:last-child{
     border-top-right-radius: 10px;
     border-bottom-right-radius: 10px;
+}
+.tareas-caja{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    overflow-y: auto;
+    
+    height: 32rem;
+}
+.agregar-caja{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+.agregar-boton{
+    width:15rem;
+   
+}
+.agregar-input{
+    width:20rem;
+
+}
+.nombretarea{
+    font-family: Comfortaa;
+    cursor: pointer;
+    height: 3rem;
+    text-align: left;
+    width: 100%;
+}
+.nombretarea.false{
+    background: brown;
 }
